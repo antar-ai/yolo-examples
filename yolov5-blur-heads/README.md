@@ -8,7 +8,7 @@ Download Link:  [YOLOv5m-crowd-human](https://drive.google.com/file/d/1gglIwqxaH
 
 **Output (Crowd Human Model)**
 
-[![image](https://github.com/antar-ai/yolo-examples/blob/master/yolov5-blur-heads/assets/demo.png)]([assets/](https://github.com/antar-ai/yolo-examples/blob/master/yolov5-blur-heads/assets/blur_face.mp4)
+[![image](https://github.com/antar-ai/yolo-examples/blob/master/yolov5-blur-heads/assets/demo.png)](https://github.com/antar-ai/yolo-examples/blob/master/yolov5-blur-heads/assets/blur_face.mp4)
 
 <br/>
 
