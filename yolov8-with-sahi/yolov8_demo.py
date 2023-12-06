@@ -26,7 +26,7 @@ def run(weights='yolov8n.pt', source='test.mp4', view_img=False, save_img=False,
     # Output setup
     save_dir = increment_path('ultralytics_results_with_sahi' / 'exp', exist_ok)
     save_dir.mkdir(parents=True, exist_ok=True)
-    video_writer = cv2.VideoWriter(str(save_dir / f'{Path(source).stem}.mp4'), fourcc, fps, (frame_width, frame_height))
+    video_writer = cv2.VideoWriter(str(save_dir) +"/"+ f'{Path(source).stem}.mp4', fourcc, fps, (frame_width, frame_height))
 
     while cap.isOpened():
         # Read a frame from the video
