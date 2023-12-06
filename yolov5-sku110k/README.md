@@ -21,6 +21,6 @@ python3 detect.py --weights yolov5m-sku110k.pt --data data/SKU-110K.yaml --sourc
 
 
 ## Future Works:
-1. Counting Products shelf-wise
-2. Checking for voids in shelf for quick refilling
-3. Positions where Products needs to be pulled forward
+1. Conducting shelf-specific product counts.
+2. Identifying and filling shelf gaps promptly.
+3. Adjusting product positions for optimal visibility and accessibility.
