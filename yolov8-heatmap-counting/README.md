@@ -18,5 +18,5 @@ In `demo.py` , change following parameters
 ## Demo 
 
 ```bash
-python3 demo.py
+python3 demo.py --weights yolov8s.pt --source input.mp4 --output_path output.mp4 --colormap_theme turbo
 ```
