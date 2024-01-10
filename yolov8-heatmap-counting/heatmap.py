@@ -152,9 +152,9 @@ class Heatmap:
         heatmap_colored = cv2.applyColorMap(heatmap_normalized.astype(np.uint8), self.colormap)
 
         if self.count_reg_pts is not None:
-            incount_label = 'InCount : ' + f'{self.in_counts}'
-            outcount_label = 'OutCount : ' + f'{self.out_counts}'
-            self.annotator.count_labels(in_count=incount_label, out_count=outcount_label)
+            incount_label = f"InCount :  + {self.in_counts}"
+            outcount_label = f"OutCount :  + {self.out_counts}"
+            self.annotator.count_labels(counts=outcount_label)
 
         im0_with_heatmap = cv2.addWeighted(self.im0, 1 - self.heatmap_alpha, heatmap_colored, self.heatmap_alpha, 0)
 
